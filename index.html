@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Online Library Management System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <style type="text/css">
+        article,
+        aside,
+        dialog,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        nav,
+        section {
+            display: block;
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block;
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        main,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+
+        .mt-3,
+        .my-3 {
+            margin-top: 1rem !important;
+        }
+
+        .row {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        .row {
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        footer {
+            width: 100%;
+
+            background-color: black;
+        }
+
+        *,
+        ::after,
+        ::before {
+            box-sizing: border-box;
+        }
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        footer {
+            display: block;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav {
+            float: right;
+            word-spacing: 30px;
+            margin-top: -60px;
+            padding-right: 90px;
+        }
+
+        nav li {
+            display: inline;
+
+        }
+
+        .rule {
+            background-image: url(image/as.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .icon {
+            background-image: url(image/as.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .icon>.fas {
+            font-weight: 900;
+            padding-left: 65px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+
+            <div class="logo">
+                <img src="image/logo.png" alt="">
+                <h4 style="color: white;">ONLINE LIBRARY MANAGEMENT SYSTEM</h4>
+            </div>
+            <nav>
+
+                <ul>
+                    <li><a href=" index.html">HOME</a></li>
+                    <li><a href="books.html">BOOKS</a></li>
+                    <li><a href="registration.html">REGISTRATION</a></li>
+                    <li><a href="student_login.html">STUDENT-LOGIN</a></li>
+                    <li><a href="contactus.html">CONTACT-US</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <section>
+            <div class="sec_img">
+                <br> <br> <br> <br>
+                <div class="box">
+                    <h1 style="text-align: center; font-size: 35px;"> Welcome to library</h1>
+                    <h5 style="text-align: center; font-size: 20px;">Open at: 09:00am</h5>
+                    <h5 style="text-align: center; font-size: 20px;">Close at: 5:00pm</h5>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p style="color: white; text-align: center; ">
+                <br> <br>
+                Email: &nbsp; sharmariya9700....@gmail.com <br>
+                Contact: &nbsp; +817176****
+            </p>
+        </footer>
+    </div>
+    <!-- jp institute.................... -->
+    <script>
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                myFunction(this);
+            }
+        };
+        xhttp.open("GET", "jsfile.js", true);
+        xhttp.send();
+
+        function myFunction(xml) {
+            console.log(xml)
+            // var xmlDoc = xml.responseXML;
+            // var x = xmlDoc.getElementsByTagName("title")[0].childNodes[0];
+            // x.appendData(" Cooking");
+            // document.getElementById("demo").innerHTML =
+            // x.data;
+
+        }
+    </script>
+
+    <script language="javascript">
+        function WriteToFile() {
+            var txt = new ActiveXObject("Scripting.FileSystemObject");
+            var s = txt.CreateTextFile("11.txt", true);
+            s.WriteLine('Hello');
+            s.Close();
+        }
+        // WriteToFile()
+    </script>
+
+    <h1 id="jpp"
+        style="text-align: center; margin-top: 50px; font-size: 40px; font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">
+        JP INSTITUTE OF ENGINEERING AND
+        TECHNOLOGY</h1>
+    <hr>
+    <div class="home2">
+        <img class="imgg" src="frame/a2.png" alt="">
+    </div>
+
+
+    <h1 id="lbry" style="text-align: center; font-style: oblique; font-weight:bolder; margin-top: 60px;">Library</h1>
+    <div class="para">
+
+        <p>A library is a place where many books are kept. Most libraries are public and let people take the
+            books to use in their home. Most libraries let people borrow books for several weeks. Some belong to
+            institutions, for example, companies, churches, schools, and universities. Also a person's
+            bookshelves at home can have many books and be a library. The people who work in libraries are
+            librarians. Librarians are people who take care of the library.
+
+            Other libraries keep famous or rare books. There are a few "Copyright libraries" which have a copy
+            of every book which has been written in that country. Some libraries also have other things that
+            people might like, such as magazines, music on CDs, or computers where people can use the Internet.
+            In school they offer software to learn the alphabet and other details.
+
+
+            The Eötvös Loránd University Library in Budapest
+            With the spread of literacy, libraries have become essential tools for learning. Libraries are very
+            important for the progress and development of a society.Libraries are collections of books and other
+            informational materials. People come to libraries for reading, study or reference. Libraries contain
+            a variety of materials. They contain printed materials, films, sound and video recordings, maps,
+            photographs, computer software, online databases, and other media.</p>
+        <img src="image/lb5.jpg" alt="">
+    </div>
+
+    <br><br><br>
+
+    <div class="jpiet">
+        <table style="border: 2px double rgb(248, 246, 246); margin: 0px 80px;">
+
+            <tr>
+                <td rowspan="2"> <img src="image/llb.jpg" alt=""></td>
+
+                <td>
+
+                    <p class="pp">Our library is the central hub of the university, well-equipped to support and
+                        facilitate
+                        teaching, learning and research programmes of the Institute. Well stocked with the latest books,
+                        CD/DVDs and research publications, the library at Glocal is open to all students, faculty
+                        members and employees. The print collection includes books, monographs, research reports, law
+                        reports, and back volumes of periodicals etc. </p>
+                </td>
+            </tr>
+            <script>
+                function validateForm() {
+                    let x = document.getElementsByName("username")[0].value;
+                    console.log(x)
+                    //   ..................
+                    let y = document.getElementsByName("roll_No")[0].value;
+                    console.log(y)
+                    // .......................
+                    let z = document.getElementsByName("msgg")[0].value;
+                    console.log(z)
+                    if (x == "") {
+                        $("#usernameerror").html("Please enter Your Name");
+                        $("#usernameerror").css("color", "red");
+                        return true;
+                    }
+                    if (x.length <= 3) {
+                        $("#usernameerror").html("valid length");
+                        $("#usernameerror").css("color", "red");
+                    }
+                    if (y == "") {
+                        $("#roll_noerror").html("Please enter Your roll_no");
+                        $("#roll_noerror").css("color", "red");
+                        return true;
+                    }
+
+
+                    if (z == "") {
+                        $("#msggerror").html("msg here");
+                        $("#msggerror").css("color", "red");
+                        return true;
+                    }
+                    if (z.length <= 10) {
+                        $("#msggerror").html("msg here");
+                        $("#msggerror").css("color", "red");
+
+                    }
+
+                }
+            </script>
+            <tr>
+                <td class="frm">
+                    <!-- <form name="myForm" action="#" > -->
+                    <h4 style="font-size: 20px; font-weight: bolder;">Ask me</h4><br>
+                    <div class=" col-lg-2 "> </div>
+                    <div class=" col-lg-8 ">
+
+                        <input class="form-control" type="text" name="username" placeholder="Enter your username">
+                        <p id="usernameerror"></p>
+
+                        <br>
+                        <input class="form-control" type="number" name="roll_No" placeholder="enter ypur roll no">
+
+                        <p id="roll_noerror"></p> <br>
+                        <textarea class="form-control" name="msgg" id="msg" cols="20" rows="1"
+                            placeholder="message"></textarea>
+                        <p id="msggerror"></p> <br>
+                        <button type="button " onclick="validateForm()" class="btn btn-success">Submit</button>
+                    </div>
+                    <div class=" col-lg-2 "> </div>
+                    <!-- </form> -->
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <!-- ........lbry........... -->
+    <br><br>
+    <div class="web1">
+        <table>
+            <tr>
+
+                <th class="icon">
+                    <i class="fas fa-cloud"></i>
+                    <i class="fas fa-phone-slash"></i>
+                    <i class="fas fa-car"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-book"></i>
+                    <i class="fas fa-video-slash"></i>
+                </th>
+                <th class="rule">
+                    <h1 style="padding-left: 190px; font-style: italic;">Library rules </h1>
+                </th>
+            </tr>
+            <tr>
+
+                <td style=" padding-left: 30px;">
+                    <h1 id="hdng" style="font-size: 40px; margin-top: -100px;">Follow the rules!</h1><br>
+                    <b>
+                        <p><b>.</b> Carry your student ID card (or CHOIS Card) with you when you enter the
+                            library.</p>
+                        <P><b>.</b>Do not take any book or other library material out of the library without following
+                            the
+                            borrowing procedures.</P>
+                        <P><b>.</b> Make sure to return the borrowed items by the due date.</P>
+                        <P><b>.</b> In case any of the borrowed items being lost, damaged, or destroyed, you are
+                            required to replace
+                            the lost /damaged/destroyed item with a new one.</P>
+                        <P><b>.</b> Never write in books or cut pages out of them.</P>
+                        <P><b>.</b> Return books/materials to their original location on the bookshelf</p>
+                    </b>
+                </td>
+                <div>
+                    <td class="rsp">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="image/id.jpg" alt="" style="width:80%;  height: 500px;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="image/id1.jpg" alt="" style="width:100%;  height: 500px;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="image/pp.png" alt="" style="width:100%;  height: 500px;">
+                                </div>
+                                <div class="item">
+                                    <img src="image/id3.jpg" alt="" style="width:100%;  height: 500px;">
+                                </div>
+                                <div class="item">
+                                    <img src="image/id4.jpeg" alt="" style="width:100%;  height: 500px;">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class=" carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class=" carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                </div>
+
+
+                </td>
+
+            </tr>
+            <tr class="ftr">
+
+                <td colspan="2">
+                    <h1 id="prtc" style=" font-style: italic; margin:auto ">Practice good manners!</h1>
+                    <hr>
+                    <b>
+                        <p> Any food is not allowed to have in the library. Only drink bottles with a cap that could
+                            be
+                            tightly closed are permitted in the reading room
+
+                            &nbsp; &nbsp; Using of mobile phones is prohibited. Switch your mobile phone off and keep it
+                            in your
+                            bag, etc.
+                            while you are in the library
+
+
+                            &nbsp;&nbsp; Private conversations are not permitted. Even talking in a whisper or standing
+                            and
+                            chatting may
+                            be disturbing to others. Strictly prohibited from doing the above
+
+                            &nbsp;&nbsp; Refrain from leaving your baggage, etc. on library chairs/sofas, and avoid
+                            taking up two
+                            seats by
+                            sitting on one and putting your baggage, clothes, etc. on the other. Also, please be sure
+                            not to
+                            leave valuables unattended</p>
+                    </b>
+                </td>
+            </tr>
+
+        </table>
+
+
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+        <div>
+            <div class="container">
+
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!-- Grid column -->
+                    <!-- <div class="col-md-6 col-lg-8 text-center text-md-left mb-4 mb-md-0"> -->
+                    <div>
+                        <h4 style="color: white; margin-left: 10px;" class="mb-0">Get connected with us on social
+                            networks!</h4>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div style="margin-left: 900px; font-size: 20px;">
+
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/" style="padding: 10px;" class="fb-ic">
+                            <i class="fab fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/login?lang=en" style="padding: 10px; class=" tw-ic">
+                            <i class="fab fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j0i271l3j69i60l3j69i65.2068j0j7&sourceid=chrome&ie=UTF-8"
+                            style="padding: 10px; class=" gplus-ic">
+                            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a href="https://www.linkedin.com/feed/" style="padding: 10px; class=" li-ic">
+                            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a href="https://www.instagram.com/" style="padding: 10px; class=" ins-ic">
+                            <i class="fab fa-instagram white-text"> </i>
+                        </a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5" style=" color: white;">
+
+            <!-- Grid row -->
+            <div class="row mt-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold">About</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 70px; margin-left: 140px;">
+                    <p style="color: rgb(196, 191, 191);"> JP Institute oF Engineering & Technology was established in
+                        2007 by JP Education trust.
+                        It is Located in Meerut, Uttar Pradesh. It Offers Various courses in various streams of
+                        Engineering,
+                        Management and Computer Application courses.
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Academics</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 80px; margin-left: 40px;">
+                    <p>
+                        <a href="http://www.jpiet.in/department.php" target="_blank">Department</a>
+                    </p>
+                    <p>
+                        <a href="http://www.jpiet.in/images/pdf/academic_calender.pdf" target="_blank">Latest Academic
+                            Calender</a>
+                    </p>
+                    <p>
+                        <a href="http://www.jpiet.in/recent-publication.php" target="_blank">Recent publication</a>
+                    </p>
+                    <p>
+                        <a href="http://www.jpiet.in/images/pdf/publications.pdf" target="_blank">faculty's
+                            publication</a>
+                    </p>
+
+                </div>
+                <!-- Grid column  -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Infrastructure</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 70px; margin-left: 48px;">
+                    <p> <a href="http://www.jpiet.in/campus.php">Campus</a></p>
+                    <p><a href="http://www.jpiet.in/campus.php">Library</a></p>
+                    <p><a href="http://www.jpiet.in/facility.php">Facility</a></p>
+                    <p><a href="http://www.jpiet.in/hostel.php">Hostel</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 70px; margin-left: 97px;">
+                    <p>
+                        <i class="fas fa-home mr-3" target="_blank"></i>JPIET Mawana Road Near Ganga Nagar, PIN- 250001
+                        Uttar Pradesh Delhi NCR, India
+                    </p>
+                    <p>
+                        <a href="mailto:info@jpgroup.in" target="_blank"> <i class="fas fa-envelope mr-3">
+                            </i>info@jpgroup.in</a>
+                    </p>
+                    <p>
+                        <a href="mailto:shiv.rohitsharma@gmail.com" target="_blank"> <i
+                                class="fas fa-envelope mr-3"></i>shiv.rohitsharma@gmail.com </a>
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3" target="_blank"></i>+91-9557361536
+                        +91-6395436568
+                    </p>
+
+
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+        <br>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html

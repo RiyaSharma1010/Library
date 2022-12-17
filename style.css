@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+   
+}
+header{
+    width: 100%;
+    height:100px;
+    background-color: black;
+}
+section{
+width: 100%;
+height:550px;
+
+}
+footer{
+    width: 100%;
+   height: auto;
+    background-color: black;
+}
+.logo img{
+    padding-top: 15px;
+       height: 60px;
+       width: 15%;
+    }
+nav li a{
+    text-decoration: none;
+    color: white; 
+
+}
+nav{
+    float: right;
+    word-spacing: 30px;
+    margin-top: -60px;
+    padding-right: 90px;
+}
+
+nav li{
+    display: inline;
+
+} 
+/* ..............................section */
+section .sec_img{
+    background-image:url("image/cvr.jpg");
+    background-repeat: no-repeat;
+    background-size: 1900px 700px;
+    height: 550px;
+}
+ section .box {
+    height: 200px;
+    width: 300px;
+    background-color: black;
+  margin: 50px auto;
+   opacity: .7;
+  color: rgb(255, 254, 254);
+  
+ }
+/* .............student_login.............................................................................. */
+section .sec2_img{
+    background-image:url("image/std.jpg");
+    background-repeat: no-repeat;
+    background-size: 1350px 550px ;
+    height: 550px; 
+}
+.menu2{
+    padding-top: 18px;
+    font-size: 15px;
+}
+.form{
+    padding-left: 50px;
+}
+.form input{
+    height: 25px;
+    width: 300px;
+}
+.box1{
+    background-color: black;
+    height: 400px;
+    width: 410px;
+    margin-left: 500px;
+    opacity: .8;
+
+}
+/* registration........................... */
+ section .sec3_img{
+    background-image: url("image/dd.jpg");
+    background-repeat: no-repeat;
+    height: 650px;
+    background-size: 1330px 650px ;
+    margin-top: 0px;
+}
+.box2{
+    background-color: black;
+    height: 550px; 
+    width: 410px;
+    margin-left: 200px;
+    opacity: .6;
+   
+}
+
+/* ...5..................home2 */
+.home2{
+   height: auto;
+    width: 100%;
+display: inline;
+}
+.home2 .imgg{
+    
+    width: 100%;
+   height:500px ;
+}
+
+
+.para{
+    display: inline-flex;
+    margin-right: 50px;
+}
+.para p{
+    margin-left: 70px;
+    margin-right: 10px;
+    width: 50%;
+    height: auto;
+    transition-property: all ;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+.para p:hover{
+    background-color: rgb(230, 222, 222);
+  
+}
+.para img{
+height: auto;
+width: 50%;
+}
+table, th, td {
+    border: 1px double rgb(250, 250, 250);
+  }
+.jpiet tr .pp{
+    margin: 20px;
+    transition-property: all ;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+.jpiet tr .pp:hover{
+    background-color: rgb(230, 222, 222);
+}
+.jpiet tr img{
+    width: 93vh;
+    height: auto;
+}
+.jpiet tr .frm {
+    text-align: center;
+  
+}
+.web1 table tr th{
+    
+    height: 100px;
+    object-fit: contain;
+}
+.web1 .rsp{
+   margin: auto;
+    height: 500px;
+   width: 50%;
+}
+.web1 table tr td img{
+    object-fit: cover;
+   
+}
+.web1{
+    margin: 0px 60px;
+}
+.web1 .ftr{
+    height: 300px;
+}
+.web1 table ftr td p{
+    justify-content: left;
+}
+
+#hdng{
+    width: 50%;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+#hdng:hover{
+    width: 50%;
+    background-color:rgba(0, 0, 0, 0.767) ;
+    color: rgb(241, 187, 187);
+}
+#lbry{
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+#lbry:hover{
+
+color: rgb(36, 34, 34);
+transform: rotate(360deg);
+}
+#jpp{
+    width: 80%;
+    margin: auto;
+    transition-property: all;
+    transition-duration: 2s;
+   /* transition-timing-function: steps(5) ; */
+}
+#jpp:hover{
+background-color: rgb(37, 37, 37);
+color: white;
+transform: rotate(1deg);
+}
+
+#prtc{
+    width: 32%;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:linear ;
+}
+#prtc:hover{
+    background-color: rgb(233, 225, 225);
+    transform:rotate(4deg);
+
+}
+.ftr p{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+.ftr p:hover{
+    background-color: rgb(230, 222, 222);    
+}
+
+
+/* books.............................................................................................. */
+.collection{
+    margin-left: 190px;
+    padding-top: 100px;
+   }
+ .collection .book1{
+     margin: 50px;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: linear steps(100);
+}
+.collection .book1:hover{
+   
+    background-color: rgba(240, 245, 245, 0.788);
+}
+.collection .book2{
+    margin: 50px;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: linear steps(20);
+}
+.collection .book2:hover{
+    background-color: rgba(237, 243, 245, 0.788);
+}
+.collection .book3{
+    margin: 50px;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: linear steps(20);
+}
+.collection .book3:hover{
+    background-color: rgba(229, 236, 238, 0.788);
+} 
+#b1{
+    margin: 20px;
+    box-shadow: 8px 8px 9px 0 rgba(146, 142, 142, 0.808), 0 6px 20px 0 rgba(161, 154, 154, 0.911);
+   transition-property: all;
+   transition-duration: 4s;
+   transition-timing-function:linear;
+}
+ #b1:hover{
+    width: 15%;
+    box-shadow: 8px 8px 9px 0 rgba(0, 0, 0, 0.808), 0 6px 20px 0 rgba(7, 2, 2, 0.911);
+} 
+.cnct{
+    width: 100%;
+    height: 520px;
+  background-size: cover;
+    background-image: url("frame/contactbg.PNG");
+    background-repeat: no-repeat;
+  
+}
+#touch{
+    margin: auto;
+    padding: 0px 550px;
+    color: black;
+    font-weight: bolder;
+  
+}
+#cnctp{
+    padding-left: 500px;
+    color: black;  
+}
+
+.lst{
+  margin-left: 100px;
+
+}
+.cnct .map{
+  padding-left: 800px;
+ margin-top: -290px;
+}
+#frmc{
+margin-top: 50px;
+padding-left: 100px;
+}
+#inp{
+    width: 300px;
+}
+.msgc{
+    height: 50px;
+}

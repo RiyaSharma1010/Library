@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+
+    <style type="text/css">
+        article,
+        aside,
+        dialog,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        nav,
+        section {
+            display: block;
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block;
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        main,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+
+        .mt-3,
+        .my-3 {
+            margin-top: 1rem !important;
+        }
+
+        .row {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        .row {
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        footer {
+            width: 100%;
+
+            background-color: black;
+        }
+
+        *,
+        ::after,
+        ::before {
+            box-sizing: border-box;
+        }
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        footer {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="image/logo.png" alt="">
+            <h4 style="color: white;">ONLINE LIBRARY MANAGEMENT SYSTEM</h4>
+        </div>
+        <nav>
+
+            <ul>
+                <li><a href=" index.html">HOME</a></li>
+                <li><a href="books.html">BOOKS</a></li>
+                <li><a href="student_login.html">STUDENT-LOGIN</a></li>
+                <li><a href="registration.html">REGISTRATION</a></li>
+                <li><a href="contactus.html">CONTACT-US</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section>
+        <div class="sec3_img">
+
+            <div class="box2">
+                <br><br>
+
+                <h1
+                    style="color:white; font-size: 35px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Library Management System</h1>
+
+                <h1 style="color:white; font-size: 25px; text-align: center;"> User Registration Form</h1> <br>
+                <div class="form">
+                    <form class="form-group" action="api.php" name="Registration" method="POST" >
+                        <input class="form-control" type="text" name="First_Name" placeholder="First Name" required=" "><br>
+                        <input class="form-control" type="text" name="Last_Name" placeholder="Last Name" required=" "><br>
+                        <input class="form-control" type="password" name="Password" placeholder="Password"
+                            required=" "><br>
+                        <input class="form-control" type="text" name="Roll_No" placeholder="Roll No" required=" "><br>
+                        <input class="form-control" type="text" name="Email" placeholder="Email" required=" "><br>
+                        <button class="btn btn-default">Login</button>
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+        <div>
+            <div class="container">
+
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!-- Grid column -->
+                    <!-- <div class="col-md-6 col-lg-8 text-center text-md-left mb-4 mb-md-0"> -->
+                    <div>
+                        <h4 style="color: white; margin-left: 10px;" class="mb-0">Get connected with us on social
+                            networks!</h4>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div style="margin-left: 900px; font-size: 20px;">
+
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/" style="padding: 10px;" class="fb-ic">
+                            <i class="fab fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/login?lang=en" style="padding: 10px; class=" tw-ic">
+                            <i class="fab fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j0i271l3j69i60l3j69i65.2068j0j7&sourceid=chrome&ie=UTF-8"
+                            style="padding: 10px; class=" gplus-ic">
+                            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a href="https://www.linkedin.com/feed/" style="padding: 10px; class=" li-ic">
+                            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a href="https://www.instagram.com/" style="padding: 10px; class=" ins-ic">
+                            <i class="fab fa-instagram white-text"> </i>
+                        </a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5" style=" color: white;">
+
+            <!-- Grid row -->
+            <div class="row mt-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold">About</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 70px; margin-left: 140px;">
+                    <p style="color: rgb(196, 191, 191);"> JP Institute oF Engineering & Technology was established
+                        in
+                        2007 by JP Education trust.
+                        It is Located in Meerut, Uttar Pradesh. It Offers Various courses in various streams of
+                        Engineering,
+                        Management and Computer Application courses.
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Academics</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 80px; margin-left: 40px;">
+                    <p>
+                        <a href="http://www.jpiet.in/department.php" target="_blank">Department</a>
+                    </p>
+                    <p>
+                        <a href="http://www.jpiet.in/images/pdf/academic_calender.pdf" target="_blank">Latest
+                            Academic
+                            Calender</a>
+                    </p>
+                    <p>
+                        <a href="http://www.jpiet.in/recent-publication.php" target="_blank">Recent publication</a>
+                    </p>
+                    <p>
+                        <a href="http://www.jpiet.in/images/pdf/publications.pdf" target="_blank">faculty's
+                            publication</a>
+                    </p>
+
+                </div>
+                <!-- Grid column  -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Infrastructure</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 70px; margin-left: 48px;">
+                    <p> <a href="http://www.jpiet.in/campus.php">Campus</a></p>
+                    <p><a href="http://www.jpiet.in/campus.php">Library</a></p>
+                    <p><a href="http://www.jpiet.in/facility.php">Facility</a></p>
+                    <p><a href="http://www.jpiet.in/hostel.php">Hostel</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 70px; margin-left: 97px;">
+                    <p>
+                        <i class="fas fa-home mr-3" target="_blank"></i>JPIET Mawana Road Near Ganga Nagar, PIN-
+                        250001
+                        Uttar Pradesh Delhi NCR, India
+                    </p>
+                    <p>
+                        <a href="mailto:info@jpgroup.in" target="_blank"> <i class="fas fa-envelope mr-3">
+                            </i>info@jpgroup.in</a>
+                    </p>
+                    <p>
+                        <a href="mailto:shiv.rohitsharma@gmail.com" target="_blank"> <i
+                                class="fas fa-envelope mr-3"></i>shiv.rohitsharma@gmail.com </a>
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3" target="_blank"></i>+91-9557361536
+                        +91-6395436568
+                    </p>
+
+
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+        <br>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="https://mdbootstrap.com/"> Riya Sharma</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
